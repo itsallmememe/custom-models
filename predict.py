@@ -2,11 +2,11 @@
 # https://github.com/replicate/cog/blob/main/docs/python.md
 
 from cog import BasePredictor, Input, Path
-# import tensorflow as tf
-# import tensorflow_hub as hub
+import tensorflow as tf
+import tensorflow_hub as hub
 from PIL import Image
 import numpy as np
-import cv2
+# import cv2
 import os
 
 
